@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Dynamic Team</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Load Boxicons for icons -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <div class="background-elements">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+  </div>
+
+  <main class="container">
+    <header class="header">
+      <h1>Meet Our <span class="highlight-text">Visionaries</span></h1>
+      <p>Discover the talented individuals driving our success forward.</p>
+    </header>
+
+    <section class="controls-section glass-panel">
+      <div class="search-bar">
+        <i class='bx bx-search'></i>
+        <input type="text" id="searchInput" placeholder="Search by name, role, or skills...">
+      </div>
+      
+      <div class="filters-container">
+        <div class="filter-group" id="roleFilters">
+          <button class="filter-btn active" data-filter="All">All</button>
+          <button class="filter-btn" data-filter="Developer">Developer</button>
+          <button class="filter-btn" data-filter="Designer">Designer</button>
+          <button class="filter-btn" data-filter="Manager">Manager</button>
+          <button class="filter-btn" data-filter="Marketing">Marketing</button>
+        </div>
+        <button id="clearFiltersBtn" class="clear-btn">
+          <i class='bx bx-reset'></i> Clear
+        </button>
+      </div>
+    </section>
+
+    <section class="team-section">
+      <div id="teamGrid" class="team-grid">
+        <!-- Team cards will be dynamically injected here -->
+      </div>
+      <div id="noResults" class="no-results hidden">
+        <i class='bx bx-ghost'></i>
+        <h3>No team members found</h3>
+        <p>Try adjusting your search or filters.</p>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

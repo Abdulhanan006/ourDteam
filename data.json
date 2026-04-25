@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Alex Mercer",
+    "role": "Developer",
+    "skills": ["React", "Node.js", "TypeScript"],
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Alex&backgroundColor=b6e3f4"
+  },
+  {
+    "id": 2,
+    "name": "Sarah Chen",
+    "role": "Designer",
+    "skills": ["Figma", "UI/UX", "CSS"],
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Sarah&backgroundColor=c0aede"
+  },
+  {
+    "id": 3,
+    "name": "Marcus Johnson",
+    "role": "Manager",
+    "skills": ["Agile", "Scrum", "Leadership"],
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Marcus&backgroundColor=ffdfbf"
+  },
+  {
+    "id": 4,
+    "name": "Elena Rodriguez",
+    "role": "Developer",
+    "skills": ["Python", "Django", "PostgreSQL"],
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Elena&backgroundColor=d1d4f9"
+  },
+  {
+    "id": 5,
+    "name": "David Kim",
+    "role": "Marketing",
+    "skills": ["SEO", "Content Strategy", "Analytics"],
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=David&backgroundColor=b6e3f4"
+  },
+  {
+    "id": 6,
+    "name": "Emily White",
+    "role": "Designer",
+    "skills": ["Adobe XD", "Illustration", "Branding"],
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Emily&backgroundColor=c0aede"
+  },
+  {
+    "id": 7,
+    "name": "James Smith",
+    "role": "Developer",
+    "skills": ["Java", "Spring Boot", "Microservices"],
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=James&backgroundColor=ffdfbf"
+  },
+  {
+    "id": 8,
+    "name": "Olivia Taylor",
+    "role": "Manager",
+    "skills": ["Project Planning", "Risk Management", "Communication"],
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Olivia&backgroundColor=d1d4f9"
+  },
+  {
+    "id": 9,
+    "name": "Daniel Brown",
+    "role": "Developer",
+    "skills": ["Vue.js", "Laravel", "MySQL"],
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Daniel&backgroundColor=b6e3f4"
+  },
+  {
+    "id": 10,
+    "name": "Sophia Martinez",
+    "role": "Marketing",
+    "skills": ["Social Media", "Campaign Management", "Copywriting"],
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Sophia&backgroundColor=c0aede"
+  }
+]
